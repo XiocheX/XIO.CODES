@@ -1,0 +1,7 @@
+{
+  "name": "XIO>CODES",
+  "description": "Systems-first engineering and intentional design. Modern technologies, engineered for reliability and scale.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

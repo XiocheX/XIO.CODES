@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philip Moche | Senior Frontend Developer & CEO | Nigeria-Based</title>
+    <meta name="description" content="Nigeria-based senior frontend developer. CEO @ XIO Ltd NG. Building high-performance web apps, SaaS platforms, and landing pages for global clients. React, TypeScript, Performance Optimization." />
+    <meta name="keywords" content="frontend developer, Nigeria, React developer, TypeScript, SaaS development, web development, landing pages, UI development, performance optimization" />
+    <meta name="author" content="Philip Moche" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Philip Moche | Senior Frontend Developer & CEO" />
+    <meta property="og:description" content="Building high-performance web applications for founders worldwide. Nigeria-based developer with proven track record." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://oche-wziz.vercel.app" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@Xi_oche" />
+    <meta name="twitter:title" content="Philip Moche | Frontend Developer & CEO" />
+    <meta name="twitter:description" content="Nigeria-based developer building products for global clients." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%232563EB' width='100' height='100'/><text x='50' y='65' font-size='60' font-weight='900' font-family='Arial' fill='white' text-anchor='middle'>X</text></svg>" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class'
+      };
+      // Prevent flash - apply theme before rendering
+      (function() {
+        try {
+          const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          console.error('Theme initialization error:', e);
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-light: #FFFFFF;
+        --bg-dark: #000000;
+        --text-light: #000000;
+        --text-dark: #FFFFFF;
+        --card-light: #F3F4F6;
+        --card-dark: #0A0A0A;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: inherit;
+        cursor: none;
+      }
+      
+      .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      /* Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #2563EB;
+        border-radius: 4px;
+      }
+      
+      html.dark ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      
+      html.dark ::-webkit-scrollbar-thumb {
+        background: #2563EB;
+      }
+      
+      /* Selection */
+      ::selection {
+        background-color: rgba(37, 99, 235, 0.3);
+      }
+      
+      html.dark ::selection {
+        background-color: rgba(37, 99, 235, 0.3);
+      }
+      
+      @media (max-width: 768px) {
+        body { cursor: auto; }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
