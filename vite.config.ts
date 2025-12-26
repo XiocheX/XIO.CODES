@@ -9,6 +9,20 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
       },
+      build: {
+        outDir: 'dist',
+        sourcemap: mode === 'development',
+        minify: 'terser',
+        chunkSizeWarningLimit: 1000,
+        rollupOptions: {
+          output: {
+            manualChunks: {
+              'vendor': ['react', 'react-dom'],
+              'animation': ['framer-motion']
+            }
+          }
+        }
+      },
       plugins: [react()],
       define: {},
       resolve: {

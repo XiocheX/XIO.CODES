@@ -1,11 +1,17 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "devCommand": "vite",
+  "devCommand": "npm run dev",
+  "framework": "vite",
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "env": {
     "VITE_API_URL": "@vite_api_url"
   },
-  "framework": "vite",
+  "regions": ["iad1"],
   "rewrites": [
     {
       "source": "/(.*)",
