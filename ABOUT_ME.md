@@ -1,4 +1,4 @@
-# Philip Emoche Ekele - Full-Stack Developer & CEO
+# Philip Oche Ekele - Full-Stack Developer & CEO
 
 ## 🚀 Quick Overview
 
@@ -184,4 +184,3 @@ I believe in:
 ---
 
 *"Build faster. Ship smarter."* - My motto for everything I do.
-# Philip Emoche Ekele - Full-Stack Developer & CEO
