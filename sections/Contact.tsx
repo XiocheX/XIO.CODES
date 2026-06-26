@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
                     <span className="text-3xl font-black text-white">X</span>
                   </div>
                   <a
-                    href="https://x.com/Xi_oche"
+                    href="https://x.com/_iamoche"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
@@ -155,13 +155,13 @@ const Contact: React.FC = () => {
 
                 {/* Profile Info */}
                 <div className="mb-2">
-                  <h3 className="text-xl font-bold text-black dark:text-white">xi.codes</h3>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">@Xi_oche</p>
+                  <h3 className="text-xl font-bold text-black dark:text-white">iamoche</h3>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">@_iamoche</p>
                 </div>
 
                 {/* Bio */}
                 <p className="text-gray-700 dark:text-gray-300 text-sm mb-4 font-medium">
-                  I CODE. I TRADE. I HACK.
+                  I CODE. I TRADE. I CREATE.
                 </p>
 
                 {/* Stats */}
