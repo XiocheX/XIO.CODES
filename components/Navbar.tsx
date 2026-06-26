@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
             }}
             className="block transition-colors duration-300 text-black dark:text-white"
           >
-            XIO
+            OCHE
           </motion.span>
           <motion.span
             variants={{
