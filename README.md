@@ -151,7 +151,7 @@ Complex web applications and custom dashboard UI.
 [+234 808 168 0736](https://wa.me/2348081680736)
 
 ### Social Media
-- **X/Twitter:** [@Xi_oche](https://x.com/Xi_oche)
+- **X/Twitter:** [@Xi_oche](https://x.com/_iamoche)
 - **GitHub:** [@XiocheX](https://github.com/XiocheX)
 
 ---
